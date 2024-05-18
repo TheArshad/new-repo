@@ -1,0 +1,354 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #f6f0f0ab;
+}
+
+.title{
+    /* margin-left: 10px; */
+    background-color: rgba(0, 0, 0, 0.851);
+    color: #fff;
+    height: 13vmin;
+    line-height: 13vmin;
+}
+h1{
+    margin-left: 10px;
+    display: flex;
+    align-items: baseline;
+}
+.bigT{
+    font-size:50px;
+}
+.nav-bar{
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.9rem;
+
+}
+.objects{
+    display: flex;
+    margin-left: 10px;
+    gap: 9px;
+    /* height: 40px;
+    line-height: 40px;
+    font-size: 0.9rem; */
+
+}
+.p1:hover{
+    cursor: pointer;
+}
+.home{
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+}
+.search-icon{
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+}
+
+.sports i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.information{
+    padding-left: 10px;
+    display: flex;
+    background-color: rgb(234, 231, 231);
+    height: 6vmin;
+    line-height: 6vmin;
+}
+.left-content{
+    display: flex;
+    gap: 2.2rem;
+}
+.news-sec{
+    display: flex;
+    gap: 0.7rem;
+    font-weight:bold;
+    font-size: small;
+    font-family:monospace;
+}
+#local-coming{
+    font-size: 13px;
+    color:rgb(128, 146, 145);
+    font-family:sans-serif;
+}
+
+.right-content{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    gap: 1rem;
+}
+#date{
+    font-size: 13px;
+    color:rgb(128, 146, 145);
+    font-family:sans-serif;
+}
+
+.main-content{
+    margin-top: 38px;
+    margin-left: 20px;
+    display: flex;
+    gap: 0.9rem;
+
+}
+.inner-content{
+    color: #fff;
+    margin-left: 20px;
+}
+.box:hover{
+    cursor: pointer;
+}
+
+.box1{
+    height: 320px;
+    width: 320px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_1280.jpg);
+    background-size: cover;
+    border-radius: 0.5rem;
+    
+}
+.box1-content{
+    margin-top: 180px;
+}
+
+.type-class{
+    display: flex;
+}
+
+.type0{
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    background-color:black;
+    border-radius: 0.3rem;
+    color: lightgray;
+    margin-bottom: 8px;
+}
+
+.headline{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:white;
+}
+.author{
+    font-weight:bold;
+    font-family:fantasy;
+    margin-bottom:3px;
+}
+
+.date{
+    font-size:small;
+    color:#fff;
+}
+
+.box2{
+    height: 320px;
+    width: 156px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/01/18/10/14/vaulted-cellar-247391_1280.jpg);
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.box2-content{
+    margin-top: 180px;
+}
+
+#headline2 {
+    font-size: 13px;
+}
+
+
+
+.box3{
+    height: 320px;
+    width: 160px; 
+    margin-bottom: 100px;
+}
+.box31{
+    height: 153px;
+    width: 170px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_1280.jpg);
+    background-size: cover;
+    border-radius: 0.4rem; 
+    display: flex;
+    align-items: end;
+}
+
+
+/* .box31-content{
+    margin-top: ;
+} */
+
+
+#headline31{
+    font-size: small;
+}
+
+.box32{
+    margin-top: 14px;
+    height: 153px;
+    width: 170px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/24/08/19/national-gallery-2533907_1280.jpg);
+    background-size: cover;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: end;
+}
+
+/* .box32-content{
+} */
+
+
+#headline32{
+    font-size: small;
+}
+
+.box4{
+    margin-left: 20px;
+    width: 220px;
+    height: 340px;
+    border-radius: 0.5rem;
+    overflow:scroll;
+}
+.type{
+    display: flex;
+    width: 220px;
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.latest{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 0.3rem;
+}
+.popular{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-top-right-radius: 0.3rem;
+}
+
+.box41{
+    width: 220px;
+    height: 66px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.chhoti-image{
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+}
+#box41-img{
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/18/22/18/university-5188610_1280.jpg);
+    background-size: cover;   
+}
+
+
+.box41-content{
+    height: 60px;
+    width: 160px;
+    margin-left: 5px;
+    font-size: smaller;
+}
+
+
+
+
+.box42{
+    width: 220px;
+    height: 66px;
+    margin-bottom: 8px;
+    display: flex;
+}
+#box42-img{
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/02/12/12/armenia-3718710_1280.jpg);
+    background-size: cover;
+}
+
+.box43{
+    width: 220px;
+    height: 66px;
+    margin-bottom: 8px;
+    display:flex;
+}
+#box43-img{
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/31/19/53/light-bulb-5244001_1280.jpg);
+    background-size: cover;
+}
+
+.box44{
+    width: 220px;
+    height: 66px;
+    display: flex;
+    margin-bottom: 8px;
+}
+#box44-img{
+    background-image: url(https://cdn.pixabay.com/photo/2019/01/24/21/27/pyramids-3953368_1280.jpg);
+    background-size: cover;
+}
+.box45{
+    width: 220px;
+    height: 66px;
+    display: flex;
+    margin-bottom: 8px;
+}
+#box45-img{
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/19/14/14/homo-erectus-2242425_1280.jpg);
+    background-size: cover;
+}
+.box46{
+    width: 220px;
+    height: 66px;
+    display: flex;
+    margin-bottom: 8px;
+}
+#box46-img{
+    background-image: url(https://cdn.pixabay.com/photo/2012/10/26/01/19/papyrus-63004_1280.jpg);
+    background-size: cover;
+}
+
+.popup-container{
+    height: 80px;
+    width: 400px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:lightgray ;
+    margin-left: 150px;
+    position:absolute;
+    top: 100px;
+    right: 170px;
+    border-radius: 0.7rem;
+    
+}
+.hide{
+    display: none;
+}
+
+.popup-btn{
+    background-color: gray;
+    margin-left: 20px;
+    position:absolute;
+    top: 150px;
+    border-radius: 0.3rem;
+}
+
+ 
